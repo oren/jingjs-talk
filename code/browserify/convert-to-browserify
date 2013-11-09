@@ -1,0 +1,5 @@
+don't use globals - jquery
+find public interface and exports it
+brfs for assets (images/css/html)
+don't use CONST, always ;
+isolate logic from DOM related stuff

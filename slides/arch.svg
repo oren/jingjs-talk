@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024px"
+   height="768px"
+   id="svg2993"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="arch.svg"
+   inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/arch.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2995">
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path4045"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3903"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4045-3"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-8"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4045-0"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4045-2"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4045-7"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4045-4"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1339086"
+     inkscape:cx="418.79952"
+     inkscape:cy="382"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:window-width="1362"
+     inkscape:window-height="729"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5474"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2998">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <text
+       xml:space="preserve"
+       style="font-size:32.65572739000000269px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;font-family:Sans"
+       x="101.41881"
+       y="82.164429"
+       id="text3001"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0133121,0.98686278)"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3003"
+         x="101.41881"
+         y="82.164429">Rails</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32.65572739000000269px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;font-family:Sans"
+       x="425.14197"
+       y="85.430008"
+       id="text3005"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0133121,0.98686276)"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3007"
+         x="425.14197"
+         y="85.430008">Hybrid</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32.65572739000000269px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;font-family:Sans"
+       x="791.31757"
+       y="90.328362"
+       id="text3009"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0133121,0.98686278)"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3011"
+         x="791.31757"
+         y="90.328362">Node</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.63278639;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3019"
+       width="125.74369"
+       height="122.46154"
+       x="560.75262"
+       y="356.62347"
+       ry="29.523388"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.63278639;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3019-4"
+       width="125.74369"
+       height="122.46154"
+       x="275.47681"
+       y="358.23483"
+       ry="29.523388"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.63278639;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3019-0"
+       width="125.74369"
+       height="122.46154"
+       x="414.25632"
+       y="145.53847"
+       ry="29.523388"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:32.65572739000000269px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="294.51904"
+       y="437.22369"
+       id="text3001-4"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0133121,0.98686276)"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3003-4"
+         x="294.51904"
+         y="437.22369">Rails</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32.65572739000000269px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="572.09277"
+       y="435.59091"
+       id="text3009-7"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0133121,0.98686276)"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3011-5"
+         x="572.09277"
+         y="435.59091">Node</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32.65572739000000269px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="422.65768"
+       y="218.53081"
+       id="text3092"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0133121,0.98686276)"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="422.65768"
+         y="218.53081"
+         id="tspan3096">Nginx</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.48118484;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-mid:none;marker-end:url(#TriangleOutL)"
+       d="m 492.48873,284.87286 c 70.26606,55.31566 70.67458,55.63726 70.67458,55.63726"
+       id="path3129"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.18688428;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-mid:none;marker-end:url(#TriangleOutL)"
+       d="m 572,458 c -150.36928,0 -151.24352,0 -151.24352,0"
+       id="path3129-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.48118484;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-mid:none;marker-end:url(#TriangleOutL)"
+       d="m 454.24105,286.78465 c -73.04904,51.78347 -73.47374,52.08453 -73.47374,52.08453"
+       id="path3129-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:22.85900879px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="416.66452"
+       y="444.50351"
+       id="text5548"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0133121,0.98686277)"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5550"
+         x="416.66452"
+         y="444.50351">legacy urls</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.85900879px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="93.254868"
+       y="160.53819"
+       id="text5552"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0133121,0.98686278)"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5554"
+         x="93.254868"
+         y="160.53819">80 Servers</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.85900879px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="773.35693"
+       y="160.53819"
+       id="text5552-0"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0133121,0.98686278)"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5554-4"
+         x="773.35693"
+         y="160.53819">20 Servers</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.85900879px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="346.76822"
+       y="315.65286"
+       id="text5552-4"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0133121,0.98686276)"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5554-47"
+         x="346.76822"
+         y="315.65286">80%</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.85900879px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="542.70258"
+       y="317.28568"
+       id="text5552-4-2"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0133121,0.98686276)"
+       inkscape:export-filename="/home/oren/projects/jingjs-talk/slides/text3001.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5554-47-7"
+         x="542.70258"
+         y="317.28568">20%</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 236.96846,64.577823 c 0,423.422177 0,423.422177 0,423.422177"
+       id="path5619"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 760,64.57782 C 760,488 760,488 760,488"
+       id="path5619-4"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#008000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3035"
+       sodipodi:cx="610"
+       sodipodi:cy="378"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       d="m 620,378 a 10,10 0 1 1 -20,0 10,10 0 1 1 20,0 z"
+       transform="translate(-16,80)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="610"
+       y="462"
+       id="text3037"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3039"
+         x="610"
+         y="462">Proxy</tspan></text>
+  </g>
+</svg>

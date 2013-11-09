@@ -1,0 +1,270 @@
+<!DOCTYPE html><html><head><title></title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style type='text/css'>
+body {
+  font-family: 'Helvetica';
+  letter-spacing:-5px;
+  background:#000;
+  background-size:100%;
+  color:#fff;
+  margin:0;
+  padding:0;
+  font-weight:bold;
+}
+
+h1, h2, h3, p {
+  margin:0;
+}
+
+em, a {
+  font-style:normal;
+  color:#8dbd0c;
+}
+
+a {
+  background: #34d0e7;
+  color:#000;
+  text-decoration:none;
+}
+
+img {
+  width:100%;
+}
+
+div {
+  cursor:pointer;
+  cursor:hand;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.black-text {
+  color:#000;
+}
+
+/* for ignite */
+#slides {
+  position: fixed;
+  font-size: 30px;
+  bottom: 0;
+  letter-spacing: 1px;
+}
+#time {
+  position: fixed;
+  font-size: 30px;
+  bottom: 0;
+  left: 90px;
+  letter-spacing: 1px;
+}
+strong {
+  color: #FFF707;
+  /* font-weight: normal; */
+}
+</style>
+
+<script type='text/javascript'>
+  var io = null;
+</script>
+
+<script src='http://localhost:3001/socket.io/socket.io.js'></script>
+
+<script type='text/javascript'>
+
+window.onload = function() {
+  var slideNumElem = document.getElementById('slide-number');
+  var index = 1;
+
+  if (io) {
+    var socket = io.connect('http://localhost:3001');
+
+    socket.on('receive', function (data) {
+      if (data.dir === 1) {
+        go(Math.min(s.length - 1, ++cur));
+        index += 1 ;
+        slideNumElem.innerHTML = index;
+      } else {
+        go(Math.max(0, --cur));
+        index -= 1 ;
+        if (index === 0 ) {
+          index = 1;
+        }
+        slideNumElem.innerHTML = index;
+      }
+    });
+  }
+
+
+    var s = document.getElementsByTagName('div'), cur = 0;
+    if (!s) return;
+
+    function go(n) {
+        cur = n;
+        var i = 1e3, e = s[n];
+        for (var k = 0; k < s.length; k++) s[k].style.display = 'none';
+        e.style.display = 'inline';
+        e.style.fontSize = i + 'px';
+
+        if (e.firstChild.nodeName === 'IMG') {
+            document.body.style.backgroundImage = 'url(' + e.firstChild.src + ')';
+            e.firstChild.style.display = 'none';
+        } else {
+            document.body.style.backgroundImage = '';
+            document.body.style.backgroundColor = e.style.backgroundColor;
+        }
+
+        while (
+            e.offsetWidth > window.innerWidth ||
+            e.offsetHeight > window.innerHeight) {
+            e.style.fontSize = (i -= 10) + 'px';
+            if (i < 0) break;
+        }
+
+        e.style.marginTop = ((window.innerHeight - e.offsetHeight) / 2) + 'px';
+
+        if (window.location.hash !== n) window.location.hash = n;
+        document.title = e.textContent || e.innerText;
+    }
+
+    document.onclick = function() {
+        go(++cur % (s.length));
+    };
+    document.onkeydown = function(e) {
+        (e.which === 39) && go(Math.min(s.length - 1, ++cur));
+        (e.which === 37) && go(Math.max(0, --cur));
+        // for ignite - space to start
+        // (e.which === 32) && Ignite.start();
+    };
+    function parse_hash() {
+        return Math.max(Math.min(
+            s.length - 1,
+            parseInt(window.location.hash.substring(1), 10)), 0);
+    }
+    if (window.location.hash) cur = parse_hash() || cur;
+    window.onhashchange = function() {
+        var c = parse_hash();
+        if (c !== cur) go(c);
+    };
+
+    go(cur);
+
+  //   (function() {
+
+  //     var index = 1;
+  //     var time = 14;
+  //     var timeElem = document.getElementById('time');
+  //     var slideNumElem = document.getElementById('slide-number');
+  //     var interval2 = null;
+
+  //     function start() {
+  //       restartTimer();
+  //       var intervalID = setInterval(function() {
+  //         index += 1;
+  //         restartTimer();
+
+  //         if(index === 21) {
+  //           window.clearInterval(intervalID)
+  //           window.clearInterval(intervalID2)
+  //           timeElem.innerHTML = 0;
+  //         } else {
+  //           go(Math.min(s.length - 1, ++cur));
+  //         };
+  //       }, 15000);
+  //     };
+
+  //     function restartTimer() {
+  //       intervalID2 = setInterval(function() {
+  //         timeElem.innerHTML = time;
+  //         slideNumElem.innerHTML = index;
+  //         time -= 1;
+  //         if(time === 0) {
+  //           window.clearInterval(intervalID2)
+  //           time = 14;
+  //         };
+  //       }, 1000);
+  //     };
+
+  //     Ignite = {
+  //       start: start
+  //     };
+
+  // })();
+};
+
+</script>
+</head>
+
+<body>
+  <div class='black-text'><img src='./galaxy.jpg' />
+    Node 搭车客指南
+    The Hitchhiker's Guide
+  </div>
+  <div>
+    Oren Golan
+    oren.github.io
+  </div>
+  <div class='black-text'><img src='./la.png' />Los Angles, California</div>
+  <div class='black-text'><img src='./israel.png' />Tel Aviv, Israel</div>
+  <div>
+    拥抱
+  </div>
+  <div><img src='./yp.png' /></div>
+
+  <div><img src='./dontpanic.jpg' /></div>
+  <div><img src='./arch.png' /></div>
+  <div>
+    服务器端 <br />
+    server side
+  </div>
+  <div>
+    框架
+    frameworks
+  </div>
+  <div>
+    express <br />
+    sails <br />
+    meteor  <br />
+    hapi <br />
+    restify <br />
+  </div>
+  <div>First attempt at writing a "framework"<img src='./framework.gif' /></div>
+  <div><img src='./shirts.jpg' /></div>
+  <div><img src='./async.gif' />var result = fs.readFile(‘data.json’, function () {})</div>
+  <div>
+    程序组织
+    code organization
+    <img src='./gorilla.gif' />
+  </div>
+  <div>
+    单页应用
+    single-page app?
+  </div>
+  <div>
+    客户端
+    client side
+  </div>
+  <div>
+    请求／响应
+    request/response
+  </div>
+  <div>Ajax</div>
+  <div>WebSockets</div>
+  <div>WebRTC</div>
+  <div>
+    框架
+    frameworks
+  </div>
+  <div>
+    CommonJS <br />
+    Require.js <br />
+    Angular <br />
+    Ember <br />
+  </div>
+  <div>Trying to get client-side developers to use npm <img src='./pool.gif' /></div>
+  <div> <img src='./gun.jpg' /></div>
+  <div>point-of-view gun</div>
+  <div> <img src='./babel-fish.jpg' /></div>
+  <div><img src='./babel-fish2.jpg' /></div>
+  <div>First day with our consultants <img src='./consultants.gif' /></div>
+
+  <!-- <p id='slides'><span id='slide&#45;number'>1</span>/20</p> -->
+  <!-- <p id='time'>15</p> -->
+</body>

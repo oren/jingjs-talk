@@ -1,0 +1,302 @@
+hat developers our app depeds on.
+The output was generated using https://github.com/substack/hacker-deps.
+
+
+16.6%    James Halliday (substack)
+
+    brfs          browserify       tape                   falafel
+    browser-pack  deps-sort        insert-module-globals  module-deps
+    optimist      parents          shell-quote            syntax-error
+    mkdirp        resolve          wordwrap               deep-equal
+    defined       http-browserify  vm-browserify          minimist
+    commondir     lexical-scope    detective              buffer-equal
+    difflet       astw             charm                  traverse
+    bunker        burrito
+
+ 10.1%    TJ Holowaychuk (visionmedia)
+
+    express        jade              supertest  commander
+    connect        cookie-signature  debug      fresh
+    methods        range-parser      send       ejs
+    qs             superagent        bytes      pause
+    css            expresso          callsite   css-parse
+    css-stringify
+
+  8.1%    Isaac Z. Schlueter (isaacs)
+
+    supervisor  inherits     abbrev  nopt
+    which       minimatch    tap     json-stringify-safe
+    sax         ini          rimraf  glob
+    lru-cache   sigmund      slide   yamlish
+    read        mute-stream
+
+  7.2%    Nodejitsu Inc. (nodejitsu)
+
+    forever   http-proxy       revalidator  cliff
+    flatiron  nconf            nssocket     utile
+    winston   resourceful-app  static-app   broadway
+    director  prompt
+
+  4.5%    Mikeal Rogers (mikeal)
+
+    request        watch       aws-sign      cookie-jar
+    forever-agent  oauth-sign  tunnel-agent
+
+  3.9%    Dominic Tarr (dominictarr)
+
+    through       JSONStream           stream-combiner  crypto-browserify
+    event-stream  event-stream_tests/  from             map-stream
+    pause-stream  split
+
+  3.7%    undefined (felixge)
+
+    http-proxy-examples  istanbul-demo-project  custom              skip
+    emitter-component    formidable             lexical-scope-test  post-require
+    readdirp-examples
+
+  3.3%    Charlie Robbins (indexzero)
+
+    pkginfo  simple-app  ps-tree  simple-app-subdir
+
+  2.2%    ForbesLindesay (ForbesLindesay)
+
+    umd    character-parser  transformers  with
+    rfile  ruglify           promise       is-promise
+
+  2.2%    Robert Kieffer (broofa)
+
+    node-uuid  mime
+
+  1.9%    Eran Hammer (hueniverse)
+
+    hawk  boom  cryptiles  hoek
+    sntp
+
+  1.7%    Caolan McMahon (caolan)
+
+    async
+
+  1.6%    Felix Geisendörfer (felixge)
+
+    form-data  stack-trace  combined-stream  delayed-stream
+
+  1.4%    Alexis Sellier (less)
+
+    less  eyes
+
+  1.4%    Raynos (Raynos)
+
+    duplexer  console-browserify
+
+  1.3%    Constellation (Constellation)
+
+    escodegen  estraverse
+
+  1.3%    ariya (ariya)
+
+    esprima
+
+  1.1%    Jeremy Ashkenas (jashkenas)
+
+    underscore
+
+  1.1%    Roman Shtylman (shtylman)
+
+    browser-resolve  cookie  process
+
+  1.0%    Thorsten Lorenz (thlorenz)
+
+    combine-source-map        readdirp  convert-source-map  inline-source-map
+    parse-base64vlq-mappings  deep-is   tap-stream
+
+  0.9%    Nick Fitzgerald (mozilla)
+
+    source-map
+
+  0.7%    Luca Bernardo Ciddio (bcluca)
+
+    liblwes
+
+  0.7%    Tim Wood (timrwood)
+
+    moment
+
+  0.7%    yuanchuan (yuanchuan)
+
+    node-watch
+
+  0.7%    Marek Kubica (Leonidas-from-XIV)
+
+    xml2js
+
+  0.7%    Anton Kovalyov (jshint)
+
+    jshint
+
+  0.7%    John Resig (zipp)
+
+    jquery-browserify
+
+  0.7%    caolan (caolan)
+
+    nodeunit
+
+  0.7%    Marak Squires (Marak)
+
+    colors
+
+  0.7%    Aleksej Gordejev (biggora)
+
+    express-useragent
+
+  0.7%    Krishnan Anantheswaran (gotwarlost)
+
+    istanbul
+
+  0.7%    Alan Plum (pluma)
+
+    par
+
+  0.7%    Stefan Thomas (justmoon)
+
+    bignum
+
+  0.7%    Steven Levithan (felixge)
+
+    dateformat
+
+  0.7%    James Burke (jrburke)
+
+    amdefine
+
+  0.6%    dscape (dscape)
+
+    cycle
+
+  0.5%    mishoo (mishoo)
+
+    uglify-js
+
+  0.5%    Brian J. Brennan (brianloveswords)
+
+    buffer-crc32  zlib-browserify
+
+  0.5%    Chris Dickinson (chrisdickinson)
+
+    bops  runforcover  to-utf8
+
+  0.4%    hij1nx (hij1nx)
+
+    eventemitter2
+
+  0.4%    Tim Caswell (creationix)
+
+    jsonparse
+
+  0.3%    Nodejitsu Inc (nodejitsu)
+
+    forever-monitor
+
+  0.3%    wycats (wycats)
+
+    handlebars
+
+  0.3%    isaacs (isaacs)
+
+    inherits
+
+  0.3%    Dav Glass (yui)
+
+    ycssmin
+
+  0.3%    Max Ogden (maxogden)
+
+    concat-stream
+
+  0.3%    Alex Gorbatchev (alexgorbatchev)
+
+    browser-builtins
+
+  0.3%    mklabs (mklabs)
+
+    fileset
+
+  0.3%    Artur Adib (arturadib)
+
+    shelljs
+
+  0.3%    Chris O'Hara (chriso)
+
+    cli
+
+  0.3%    Sam Saccone (samccone)
+
+    monocle
+
+  0.3%    Douglas Crockford (substack)
+
+    jsonify
+
+  0.3%    AvianFlu (AvianFlu)
+
+    ncp
+
+  0.3%    Joyent, Inc (joyent)
+
+    http-signature
+
+  0.3%    Pavan Kumar Sunkara (pksunkara)
+
+    i
+
+  0.3%    Mark Cavage (mcavage)
+
+    asn1  assert-plus
+
+  0.3%    Michael Stum (indexzero)
+
+    timespan
+
+  0.2%    T. Jameson Little (beatgammit)
+
+    base64-js
+
+  0.1%    Peteris Krumins (pkrumins)
+
+    lazy
+
+  0.1%    Nathan Rajlich (TooTallNate)
+
+    keypress
+
+  0.1%    Mathias Bynens (bestiejs)
+
+    punycode
+
+  0.1%    Robert Mustacchi (rmustacc)
+
+    ctype
+
+  0.1%    felixge (felixge)
+
+    formidable
+
+  0.1%    Julian Gruber (juliangruber)
+
+    constants-browserify
+
+  0.1%    Romain Beauxis (toots)
+
+    buffer-browserify
+
+  0.1%    bradleymeck
+
+    cookiejar
+
+  0.1%    David Chambers (davidchambers)
+
+    Base64
+
+  0.0%    Mihai Bazon (mishoo)
+
+    uglify-js

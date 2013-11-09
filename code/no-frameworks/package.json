@@ -1,0 +1,24 @@
+{
+  "name": "no-framework",
+  "version": "0.0.0",
+  "description": "",
+  "main": "00.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "routes": "~0.2.0",
+    "ejs": "~0.8.4",
+    "templar": "~0.2.1"
+  },
+  "devDependencies": {
+    "tape": "~2.1.0",
+    "node-dev": "~2.1.0"
+  },
+  "scripts": {
+    "test": "tape test/*",
+    "start": "./node_modules/node-dev/bin/node-dev 07-final.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}

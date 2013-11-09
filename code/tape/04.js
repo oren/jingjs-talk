@@ -1,0 +1,59 @@
+// Client and Server tests looks the same with the Tape and Browserify
+
+// [tape](https://github.com/substack/tape)
+
+// Let's say we have the following 3 files:
+
+// 1. index.html
+
+<!--index.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+    <p>CommonJS in the browser!</p>
+
+    <script src="bundle.js"></script>
+  </body>
+</html>
+
+// 2. app.js
+
+var saveUser = require('./saveUser.js');
+saveUser({name: 'rose'});
+
+// 3. saveUser.js
+
+module.exports = function(user, cb) {
+  // save user in our DB. in the real scenario this will be an async call to an http endpoint
+  setTimeout(function() {
+    console.log('user ' + user.name + ' was saved in the db');
+    cb && cb(200);
+  });
+};
+
+
+```
+npm install browserify -g
+browserify app.js > app.min.js
+```
+
+// Great, and now let's see how we can use tape to test our saveUser.js.
+// Create a folder called test and add this file:
+
+
+// test-saveUser.js
+
+var test = require('tape');
+
+var saveUser = require('../save_user.js');
+
+test('save user', function (t) {
+  t.plan(1);  // you have to declare how many assertions are in your test
+
+  saveUser({name: 'joe'}, function(result){
+    t.equal(result, 200);  // using the === operator
+  });
+});
