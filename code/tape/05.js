@@ -21,7 +21,7 @@
 
 // 2. app.js
 
-var saveUser = require('./saveUser.js');
+var saveUser = require('./save_user.js');
 saveUser({name: 'rose'});
 
 // 3. save_user.js

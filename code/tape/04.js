@@ -21,10 +21,10 @@
 
 // 2. app.js
 
-var saveUser = require('./saveUser.js');
+var saveUser = require('./save_user.js');
 saveUser({name: 'rose'});
 
-// 3. saveUser.js
+// 3. save_user.js
 
 module.exports = function(user, cb) {
   // save user in our DB. in the real scenario this will be an async call to an http endpoint
