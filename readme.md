@@ -1,5 +1,5 @@
 Slides and Code from [jingjs.org](http://jingjs.org/) Conference  
-![galaxy](https://github.com/oren/jingjs-talk/blob/master/slides/galaxy.jpg)
+![galaxy](http://cdn-images.9cloud.us/8/the-hitchh_1652808886.jpg)
 
 ```bash
 ./run
